@@ -1,12 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-#button{
+
+#calculator{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkgray;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+
+#A {
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 15px;
+    padding: 25px;
+
+}
+
+button {
     height: 100px;
     width: 100px;
     background-color: black;
-    color: aliceblue;
+    color: white;
     border: none;
 }
+
+#display {
+    width: 60%;
+    padding: 20px;
+    text-align: left;
+    font-size: large;
+    border: none;
+    background-color: lightgray;
+}
+
+
+
 
 
 
