@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: lightgray;
 }
 
 
@@ -26,20 +27,26 @@ body {
 }
 
 button {
-    height: 100px;
-    width: 100px;
-    background-color: black;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(33, 33, 33);
+    color: rgb(225, 225, 225);
     border: none;
+    font-size: x-large;
 }
 
 #display {
-    width: 60%;
+    width: 100%;
+    height: 50px;
     padding: 20px;
     text-align: left;
-    font-size: large;
-    border: none;
-    background-color: lightgray;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 100px;
+    border-color: darkgrey;
+    background-color: rgb(76, 67, 67);
+    color: white;
 }
 
 

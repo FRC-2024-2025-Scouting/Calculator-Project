@@ -13,7 +13,8 @@ function calculate() {
         display.value = eval(display.value)
     }
     catch(error){
-        display.value = ("error try again c:")
+        display.value = "error try again c:";
+
     }
 }
     
